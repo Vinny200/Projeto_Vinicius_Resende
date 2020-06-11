@@ -11,6 +11,8 @@ class B{
 		void setB1(int n){ B1 = n; }
 		void setB2(float n){ B2 = n; }
 		
-		void MB1(){ cout << "BA1" << endl; }
-		void MB2(){ cout << "BA2" << endl; }	
+		void MB1(){ cout << "MB1" << endl; }
+		void MB2(){ cout << "MB2" << endl; }
+		void MB3(){ cout << "MB3" << endl; }
+			
 };
