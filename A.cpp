@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+class A{
+	private:
+		int A1;
+		float A2;
+	
+	public:
+		int getA1() { return A1; }
+		float getA2() { return A2; }
+		void setA1(int n){ A1 = n;}
+		void setA2(float n){ A2 = n;}
+		
+		void MA1(){ cout << "MA1" << endl; }
+		void MA2(){ cout << "MA2" << endl; }
+};
